@@ -1,5 +1,5 @@
 -QuickNote: Bohužel framework má moc souborů, takže když stahujete z githubu, tak se musíte proklikat několika zipama.
-
+--------------------------------------------------------------------------------------
 RestApi bylo vytvořeno pomocí slim framework v PHP s xampp. Využívá apache a mysql. Práce s daty RestApi v Postman.
 
 programy použité při vytváření:
@@ -12,7 +12,7 @@ https://www.slimframework.com/
 
 
 
-
+--------------------------------------
 
 
 programy potřebné ke spuštění: 
@@ -23,7 +23,7 @@ https://www.apachefriends.org/index.html
 
 
 
-
+------------------------------------------
 
 
 
@@ -39,7 +39,7 @@ spuštění na localhost:
 8. Do url vložte localhosta s koncovkou, který jsou rozepsány níže, podle vašich úmyslů s daty
 
 
-
+----------------------------------------------
 
 
 
@@ -48,24 +48,24 @@ spuštění na localhost:
 Popis:
 Tento endpoint slouží k vytvoření nového blog postu. Data blog postu jsou očekávána ve formátu JSON s požadavky na obsah ( blog_id, nickname, text, date).
 
-
+----------------------------------------------
 2. GET /blog/all - Zobrazení všech blog postů
    
 Popis:
 Tento endpoint slouží k zobrazení všech blog postů uložených v databázi.
 
-
+----------------------------------------------
 3. GET /blog/(blog_id - napsání hodnoty) - Zobrazení konkrétního blog postu
 Popis:
 Tento endpoint slouží k získání konkrétního blog postu na základě poskytnutého identifikátoru.
 
-
-5. DELETE /blog/(blog_id - napsání hodnoty) - Smazání blog postu
+----------------------------------------------
+4. DELETE /blog/(blog_id - napsání hodnoty) - Smazání blog postu
  
 Popis:
 Tento endpoint slouží k smazání blog postu na základě poskytnutého identifikátoru.
 
-
+----------------------------------------------
 5. PATCH /api/blog/(id dáného blogpostu - napsání hodnoty) - Částečný update blog postu
    
 Popis:
