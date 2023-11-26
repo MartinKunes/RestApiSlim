@@ -1,3 +1,5 @@
+-QuickNote: Bohužel framework má moc souborů, takže když stahujete z githubu, tak se musíte proklikat několika zipama.
+
 RestApi bylo vytvořeno pomocí slim framework v PHP s xampp. Využívá apache a mysql. Práce s daty RestApi v Postman.
 
 programy použité při vytváření:
